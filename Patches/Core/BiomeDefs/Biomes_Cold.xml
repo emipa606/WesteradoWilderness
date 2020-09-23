@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Boreal Forest -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/animalDensity</xpath>
+        <value>
+          <animalDensity>3.0</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/plantDensity</xpath>
+        <value>
+          <plantDensity>0.72</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/terrainPatchMakers/li/thresholds/li[1]/max</xpath>
+        <value>
+          <max>0.52</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/terrainPatchMakers/li/thresholds/li[2]/min</xpath>
+        <value>
+          <min>0.52</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/terrainPatchMakers/li/thresholds/li[2]/max</xpath>
+        <value>
+          <max>0.78</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/terrainPatchMakers/li/thresholds/li[3]/min</xpath>
+        <value>
+          <min>0.78</min>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/baseWeatherCommonalities</xpath>
+        <value>
+          <SnowBlizzard_Westerado>2</SnowBlizzard_Westerado>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+        <value>
+          <wildPlants>
+            <Plant_Chanterelle_Westerado>0.3</Plant_Chanterelle_Westerado>
+            <Plant_ParasolMushroom_Westerado>0.1</Plant_ParasolMushroom_Westerado>
+            <Plant_Grass>8.0</Plant_Grass>
+            <Plant_Brambles>1.3</Plant_Brambles>
+            <Plant_Moss>5.0</Plant_Moss>
+            <Plant_Bush>3.0</Plant_Bush>
+            <Plant_TreePine>7.0</Plant_TreePine>
+            <Plant_TreeBirch>1.5</Plant_TreeBirch>
+            <!--<Plant_TreePoplar>1.2</Plant_TreePoplar>-->
+            <Plant_Berry>0.2</Plant_Berry>
+            <Plant_HealrootWild>0.14</Plant_HealrootWild>
+          </wildPlants>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Bear_BlackBear_Westerado>0.12</Bear_BlackBear_Westerado>
+            <Badger_Westerado>0.5</Badger_Westerado>
+            <Moose_Westerado>0.3</Moose_Westerado>
+            <Squirrel>1</Squirrel>
+            <Hare>1</Hare>
+            <Rat>1</Rat>
+            <Elk>0.5</Elk>
+            <Caribou>0.3</Caribou>
+            <Muffalo>0.2</Muffalo>
+            <WildBoar>0.6</WildBoar>
+            <Ibex>0.4</Ibex>
+            <Raccoon>0.6</Raccoon>
+            <Turkey>0.5</Turkey>
+            <Deer>0.7</Deer>
+            <Megasloth>0.1</Megasloth>
+            <Fox_Red>0.07</Fox_Red>
+            <Fox_Arctic>0.05</Fox_Arctic>
+            <Bear_Grizzly>0.07</Bear_Grizzly>
+            <Wolf_Timber>0.07</Wolf_Timber>
+            <Wolf_Arctic>0.05</Wolf_Arctic>
+            <Cougar>0.07</Cougar>
+            <Lynx>0.07</Lynx>
+            <Warg>0.03</Warg>
+          </wildAnimals>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="BorealForest"]/allowedPackAnimals</xpath>
+        <value>
+          <allowedPackAnimals>
+            <li>Muffalo</li>
+            <li>BrownDonkey_Westerado</li>
+            <li>BlackDonkey_Westerado</li>
+            <li>GreyDonkey_Westerado</li>
+          </allowedPackAnimals>
+        </value>
+      </li>
+      <!-- Tundra -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/animalDensity</xpath>
+        <value>
+          <animalDensity>1.2</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/plantDensity</xpath>
+        <value>
+          <plantDensity>0.24</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/terrainsByFertility</xpath>
+        <value>
+          <terrainsByFertility>
+            <li>
+              <terrain>MossyTerrain</terrain>
+              <min>-999</min>
+              <max>0.62</max>
+            </li>
+            <li>
+              <terrain>Soil</terrain>
+              <min>0.62</min>
+              <max>0.87</max>
+            </li>
+            <li>
+              <terrain>SoilRich</terrain>
+              <min>0.87</min>
+              <max>999</max>
+            </li>
+          </terrainsByFertility>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/baseWeatherCommonalities</xpath>
+        <value>
+          <SnowBlizzard_Westerado>3</SnowBlizzard_Westerado>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+        <value>
+          <wildPlants>
+            <Plant_Chanterelle_Westerado>0.01</Plant_Chanterelle_Westerado>
+            <Plant_ParasolMushroom_Westerado>0.07</Plant_ParasolMushroom_Westerado>
+            <Plant_Grass>3.6</Plant_Grass>
+            <Plant_Moss>0.8</Plant_Moss>
+            <Plant_Bush>0.3</Plant_Bush>
+            <Plant_Astragalus>0.1</Plant_Astragalus>
+            <Plant_Dandelion>0.1</Plant_Dandelion>
+            <Plant_TreePine>0.08</Plant_TreePine>
+            <Plant_TreeBirch>0.08</Plant_TreeBirch>
+            <Plant_Berry>0.07</Plant_Berry>
+            <Plant_HealrootWild>0.05</Plant_HealrootWild>
+          </wildPlants>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="Tundra"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Bear_BlackBear_Westerado>0.04</Bear_BlackBear_Westerado>
+            <Moose_Westerado>0.1</Moose_Westerado>
+            <Hare>2</Hare>
+            <Snowhare>2</Snowhare>
+            <Caribou>1.8</Caribou>
+            <Elk>1.6</Elk>
+            <Muffalo>0.3</Muffalo>
+            <Ibex>0.8</Ibex>
+            <Megasloth>0.2</Megasloth>
+            <Fox_Arctic>0.07</Fox_Arctic>
+            <Wolf_Arctic>0.07</Wolf_Arctic>
+            <Wolf_Timber>0.07</Wolf_Timber>
+            <Lynx>0.07</Lynx>
+            <Warg>0.02</Warg>
+            <Bear_Polar>0.07</Bear_Polar>
+            <Bear_Grizzly>0.07</Bear_Grizzly>
+          </wildAnimals>
+        </value>
+      </li>
+      <!-- Cold Bog -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/animalDensity</xpath>
+        <value>
+          <animalDensity>2.6</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/plantDensity</xpath>
+        <value>
+          <plantDensity>0.72</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/baseWeatherCommonalities</xpath>
+        <value>
+          <SnowBlizzard_Westerado>2</SnowBlizzard_Westerado>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+        <value>
+          <wildPlants>
+            <Plant_Chanterelle_Westerado>0.01</Plant_Chanterelle_Westerado>
+            <Plant_Chokevine>3.0</Plant_Chokevine>
+            <Plant_TallGrass>2.4</Plant_TallGrass>
+            <Plant_Moss>0.8</Plant_Moss>
+            <Plant_Bush>0.3</Plant_Bush>
+            <Plant_Astragalus>0.1</Plant_Astragalus>
+            <Plant_TreeWillow>0.5</Plant_TreeWillow>
+            <Plant_TreeCypress>0.4</Plant_TreeCypress>
+            <Plant_TreeMaple>0.6</Plant_TreeMaple>
+            <Plant_Berry>0.07</Plant_Berry>
+            <Plant_HealrootWild>0.05</Plant_HealrootWild>
+          </wildPlants>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="ColdBog"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Bear_BlackBear_Westerado>0.11</Bear_BlackBear_Westerado>
+            <Moose_Westerado>0.3</Moose_Westerado>
+            <Squirrel>1</Squirrel>
+            <Hare>1</Hare>
+            <Rat>1</Rat>
+            <Elk>0.5</Elk>
+            <Caribou>0.5</Caribou>
+            <Muffalo>0.2</Muffalo>
+            <WildBoar>0.7</WildBoar>
+            <Ibex>0.4</Ibex>
+            <Raccoon>0.6</Raccoon>
+            <Turkey>0.5</Turkey>
+            <Deer>0.5</Deer>
+            <Megasloth>0.1</Megasloth>
+            <Fox_Red>0.07</Fox_Red>
+            <Fox_Arctic>0.07</Fox_Arctic>
+            <Wolf_Timber>0.07</Wolf_Timber>
+            <Wolf_Arctic>0.07</Wolf_Arctic>
+            <Cougar>0.07</Cougar>
+            <Lynx>0.07</Lynx>
+            <Warg>0.03</Warg>
+            <Bear_Polar>0.07</Bear_Polar>
+            <Bear_Grizzly>0.07</Bear_Grizzly>
+          </wildAnimals>
+        </value>
+      </li>
+      <!-- Ice Sheet -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/animalDensity</xpath>
+        <value>
+          <animalDensity>0.15</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/baseWeatherCommonalities</xpath>
+        <value>
+          <SnowBlizzard_Westerado>60</SnowBlizzard_Westerado>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="IceSheet"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Snowhare>2</Snowhare>
+            <Muffalo>0.1</Muffalo>
+            <Bear_Polar>0.1</Bear_Polar>
+            <Wolf_Arctic>0.2</Wolf_Arctic>
+            <Fox_Arctic>0.3</Fox_Arctic>
+            <Lynx>0.1</Lynx>
+            <Megasloth>0.1</Megasloth>
+          </wildAnimals>
+        </value>
+      </li>
+      <!-- Sea Ice -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="SeaIce"]/baseWeatherCommonalities</xpath>
+        <value>
+          <SnowBlizzard_Westerado>8</SnowBlizzard_Westerado>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="SeaIce"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Snowhare>2</Snowhare>
+            <Muffalo>0.1</Muffalo>
+            <Bear_Polar>0.1</Bear_Polar>
+            <Wolf_Arctic>0.2</Wolf_Arctic>
+            <Fox_Arctic>0.3</Fox_Arctic>
+          </wildAnimals>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

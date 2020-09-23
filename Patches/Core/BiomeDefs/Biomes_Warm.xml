@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Tropical Rainforest -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/animalDensity</xpath>
+        <value>
+          <animalDensity>6.2</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/plantDensity</xpath>
+        <value>
+          <plantDensity>1.4</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+        <value>
+          <wildPlants>
+            <Haematopus_Westerado>0.0125</Haematopus_Westerado>
+            <Plant_Grass>2.0</Plant_Grass>
+            <Plant_TallGrass>3.0</Plant_TallGrass>
+            <Plant_ShrubLow>2.0</Plant_ShrubLow>
+            <Plant_Alocasia>0.8</Plant_Alocasia>
+            <Plant_TreeCecropia>0.4</Plant_TreeCecropia>
+            <Plant_TreePalm>0.3</Plant_TreePalm>
+            <Plant_TreeBamboo>0.3</Plant_TreeBamboo>
+            <Plant_TreeTeak>0.2</Plant_TreeTeak>
+            <Plant_Bush>0.15</Plant_Bush>
+            <Plant_Clivia>0.07</Plant_Clivia>
+            <Plant_Berry>0.05</Plant_Berry>
+            <Plant_Rafflesia>0.0014</Plant_Rafflesia>
+          </wildPlants>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Badger_Westerado>0.2</Badger_Westerado>
+            <Rattlesnake_Westerado>0.2</Rattlesnake_Westerado>
+            <Rat>1</Rat>
+            <Monkey>1</Monkey>
+            <Boomalope>0.4</Boomalope>
+            <Capybara>0.6</Capybara>
+            <Cassowary>0.5</Cassowary>
+            <Tortoise>0.5</Tortoise>
+            <Chinchilla>0.5</Chinchilla>
+            <WildBoar>0.6</WildBoar>
+            <Elephant>0.4</Elephant>
+            <Rhinoceros>0.3</Rhinoceros>
+            <Alpaca>0.5</Alpaca>
+            <Cobra>0.15</Cobra>
+            <Panther>0.15</Panther>
+          </wildAnimals>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TropicalRainforest"]/allowedPackAnimals</xpath>
+        <value>
+          <li>BrownDonkey_Westerado</li>
+          <li>BlackDonkey_Westerado</li>
+          <li>GreyDonkey_Westerado</li>
+        </value>
+      </li>
+      <!-- Tropical Swamp -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/animalDensity</xpath>
+        <value>
+          <animalDensity>6.2</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/plantDensity</xpath>
+        <value>
+          <plantDensity>1.2</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/terrainPatchMakers/li[2]/thresholds/li[2]/max</xpath>
+        <value>
+          <max>0.72</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/terrainPatchMakers/li[2]/thresholds/li[3]/min</xpath>
+        <value>
+          <min>0.72</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Rattlesnake_Westerado>0.2</Rattlesnake_Westerado>
+            <Rat>1</Rat>
+            <Monkey>1</Monkey>
+            <Boomalope>0.4</Boomalope>
+            <Capybara>0.6</Capybara>
+            <Cassowary>0.5</Cassowary>
+            <Tortoise>0.5</Tortoise>
+            <Chinchilla>0.5</Chinchilla>
+            <WildBoar>0.6</WildBoar>
+            <Elephant>0.4</Elephant>
+            <Rhinoceros>0.2</Rhinoceros>
+            <Alpaca>0.5</Alpaca>
+            <Cobra>0.15</Cobra>
+            <Panther>0.15</Panther>
+          </wildAnimals>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TropicalSwamp"]/allowedPackAnimals</xpath>
+        <value>
+          <li>BrownDonkey_Westerado</li>
+          <li>BlackDonkey_Westerado</li>
+          <li>GreyDonkey_Westerado</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

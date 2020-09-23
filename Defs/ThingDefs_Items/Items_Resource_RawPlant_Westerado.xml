@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawChanterelle</defName>
+    <label>chanterelle</label>
+    <description>Raw protein-rich chanterelles, can be used as meat substitute. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Veg/RawChanterelle</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1.6</MarketValue>
+      <Nutrition>0.06</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+    </ingestible>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>RawParasolMushroom</defName>
+    <label>proud mountain-shroom</label>
+    <description>Raw protein-rich proud mountain-shroom, can be used as meat substitute. Nice to eat, even when raw.</description>
+    <graphicData>
+      <texPath>Things/Veg/RawParasolMushroom</texPath>
+    </graphicData>
+    <thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+    <statBases>
+      <MarketValue>1.7</MarketValue>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>10</daysToRotStart>
+      </li>
+    </comps>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+      <preferability>RawTasty</preferability>
+    </ingestible>
+  </ThingDef>
+</Defs>

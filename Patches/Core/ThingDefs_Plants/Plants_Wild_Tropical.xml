@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/visualSizeRange/min</xpath>
+        <value>
+          <min>1.2</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeTeak"]/plant/visualSizeRange/max</xpath>
+        <value>
+          <max>3.2</max>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

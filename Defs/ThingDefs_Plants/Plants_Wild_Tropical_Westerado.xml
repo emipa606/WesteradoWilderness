@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--============================ Shrooms =============================-->
+  <ThingDef Name="TropicalShroomBase_Westerado" ParentName="PlantBase" Abstract="True">
+    <plant>
+      <neverBlightable>true</neverBlightable>
+      <growMinGlow>0</growMinGlow>
+      <growOptimalGlow>0</growOptimalGlow>
+      <cavePlant>false</cavePlant>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="TropicalShroomBase_Westerado">
+    <defName>Haematopus_Westerado</defName>
+    <label>haematopus</label>
+    <description>A small red mushroom typically found in rainforests. It smells like an old, dirty rag pulled from the stomach of a rotting muffalo - but it tastes surprisingly good when cooked. Dies when exposed to light.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>2</Beauty>
+      <Nutrition>0.30</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/Haematopus</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <!--<altitudeLayer>Item</altitudeLayer>-->
+    <neverMultiSelect>false</neverMultiSelect>
+    <pathCost>10</pathCost>
+    <ingestible />
+    <plant>
+      <fertilityMin>0.01</fertilityMin>
+      <fertilitySensitivity>0.15</fertilitySensitivity>
+      <growDays>32</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestYield>20</harvestYield>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>RawFungus</harvestedThingDef>
+      <maxMeshCount>4</maxMeshCount>
+      <neverBlightable>true</neverBlightable>
+      <visualSizeRange>0.2~0.5</visualSizeRange>
+      <topWindExposure>0.05</topWindExposure>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>12</wildClusterWeight>
+      <!--<sowWork>1200</sowWork>
+			<sowTags>
+				<li>Decorative</li>
+			</sowTags>-->
+      <purpose>Food</purpose>
+    </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(190,63,61,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

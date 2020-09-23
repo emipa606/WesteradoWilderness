@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Temperate Forest -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/animalDensity</xpath>
+        <value>
+          <animalDensity>4.2</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/plantDensity</xpath>
+        <value>
+          <plantDensity>0.85</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/terrainPatchMakers/li/thresholds/li[2]/max</xpath>
+        <value>
+          <max>0.96</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/terrainPatchMakers/li/thresholds/li[3]/min</xpath>
+        <value>
+          <min>0.96</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+        <value>
+          <wildPlants>
+            <Plant_RimindPaintbrush_Westerado>0.4</Plant_RimindPaintbrush_Westerado>
+            <Plant_Chanterelle_Westerado>0.04</Plant_Chanterelle_Westerado>
+            <Plant_ParasolMushroom_Westerado>0.1</Plant_ParasolMushroom_Westerado>
+            <Plant_Lavender_Westerado>0.02</Plant_Lavender_Westerado>
+            <Plant_Grass>5.0</Plant_Grass>
+            <Plant_TallGrass>2.0</Plant_TallGrass>
+            <Plant_Brambles>0.6</Plant_Brambles>
+            <Plant_Dandelion>0.4</Plant_Dandelion>
+            <Plant_Bush>0.6</Plant_Bush>
+            <Plant_TreeOak>0.5</Plant_TreeOak>
+            <Plant_TreePoplar>0.5</Plant_TreePoplar>
+            <Plant_TreeMaple>0.01</Plant_TreeMaple>
+            <Plant_Berry>0.05</Plant_Berry>
+            <Plant_HealrootWild>0.05</Plant_HealrootWild>
+          </wildPlants>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Bear_BlackBear_Westerado>0.13</Bear_BlackBear_Westerado>
+            <Badger_Westerado>0.5</Badger_Westerado>
+            <Moose_Westerado>0.3</Moose_Westerado>
+            <Rattlesnake_Westerado>0.4</Rattlesnake_Westerado>
+            <Hare>1.0</Hare>
+            <Squirrel>1.0</Squirrel>
+            <Rat>1.0</Rat>
+            <Deer>0.6</Deer>
+            <WildBoar>0.7</WildBoar>
+            <Turkey>0.5</Turkey>
+            <Raccoon>0.6</Raccoon>
+            <Ibex>0.4</Ibex>
+            <Muffalo>0.2</Muffalo>
+            <Alpaca>0.5</Alpaca>
+            <Boomalope>0.3</Boomalope>
+            <Boomrat>0.3</Boomrat>
+            <Tortoise>0.2</Tortoise>
+            <Gazelle>0.2</Gazelle>
+            <Megasloth>0.2</Megasloth>
+            <Rhinoceros>0.05</Rhinoceros>
+            <Bear_Grizzly>0.07</Bear_Grizzly>
+            <Wolf_Timber>0.07</Wolf_Timber>
+            <Fox_Red>0.07</Fox_Red>
+            <Cougar>0.07</Cougar>
+            <Lynx>0.07</Lynx>
+            <Warg>0.02</Warg>
+          </wildAnimals>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateForest"]/allowedPackAnimals</xpath>
+        <value>
+          <li>BrownDonkey_Westerado</li>
+          <li>BlackDonkey_Westerado</li>
+          <li>GreyDonkey_Westerado</li>
+        </value>
+      </li>
+      <!-- Temperate Swamp -->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/animalDensity</xpath>
+        <value>
+          <animalDensity>4.6</animalDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/plantDensity</xpath>
+        <value>
+          <plantDensity>0.88</plantDensity>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/terrainPatchMakers/li[2]/thresholds/li[2]/max</xpath>
+        <value>
+          <max>0.72</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/terrainPatchMakers/li[2]/thresholds/li[3]/min</xpath>
+        <value>
+          <min>0.72</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+        <value>
+          <wildPlants>
+            <Plant_Chanterelle_Westerado>0.02</Plant_Chanterelle_Westerado>
+            <Plant_TallGrass>3.2</Plant_TallGrass>
+            <Plant_Chokevine>0.8</Plant_Chokevine>
+            <Plant_Bush>0.2</Plant_Bush>
+            <Plant_TreeWillow>0.8</Plant_TreeWillow>
+            <Plant_TreeCypress>0.7</Plant_TreeCypress>
+            <Plant_TreeMaple>1.0</Plant_TreeMaple>
+            <Plant_Berry>0.05</Plant_Berry>
+            <Plant_HealrootWild>0.05</Plant_HealrootWild>
+          </wildPlants>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/wildAnimals</xpath>
+        <value>
+          <wildAnimals>
+            <Bear_BlackBear_Westerado>0.13</Bear_BlackBear_Westerado>
+            <Moose_Westerado>0.3</Moose_Westerado>
+            <Hare>1.0</Hare>
+            <Squirrel>1.0</Squirrel>
+            <Rat>1.0</Rat>
+            <Tortoise>0.6</Tortoise>
+            <Deer>0.5</Deer>
+            <WildBoar>0.7</WildBoar>
+            <Turkey>0.5</Turkey>
+            <Raccoon>0.5</Raccoon>
+            <Ibex>0.4</Ibex>
+            <Muffalo>0.2</Muffalo>
+            <Alpaca>0.3</Alpaca>
+            <Boomalope>0.3</Boomalope>
+            <Boomrat>0.3</Boomrat>
+            <Megasloth>0.2</Megasloth>
+            <Rhinoceros>0.05</Rhinoceros>
+            <Bear_Grizzly>0.07</Bear_Grizzly>
+            <Wolf_Timber>0.07</Wolf_Timber>
+            <Fox_Red>0.07</Fox_Red>
+            <Cougar>0.07</Cougar>
+            <Lynx>0.07</Lynx>
+            <Warg>0.07</Warg>
+          </wildAnimals>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/BiomeDef[defName="TemperateSwamp"]/allowedPackAnimals</xpath>
+        <value>
+          <li>BrownDonkey_Westerado</li>
+          <li>BlackDonkey_Westerado</li>
+          <li>GreyDonkey_Westerado</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

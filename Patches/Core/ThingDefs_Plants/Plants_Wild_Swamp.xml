@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/visualSizeRange/min</xpath>
+        <value>
+          <min>0.8</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeWillow"]/plant/visualSizeRange/max</xpath>
+        <value>
+          <max>2.3</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/visualSizeRange/min</xpath>
+        <value>
+          <min>1.4</min>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Plant_TreeCypress"]/plant/visualSizeRange/max</xpath>
+        <value>
+          <max>2.5</max>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

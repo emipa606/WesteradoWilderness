@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!--<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="VG_FruitKvassWort"]</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Apparel_Bandana_Westerado"]/label</xpath>
+				<value>
+					<label>patch worked</label>
+				</value>
+			</li>-->
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="BushBase"]/plant/visualSizeRange/max</xpath>
+        <value>
+          <max>1.4</max>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="TreeBase"]/plant/visualSizeRange/max</xpath>
+        <value>
+          <max>2.6</max>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
