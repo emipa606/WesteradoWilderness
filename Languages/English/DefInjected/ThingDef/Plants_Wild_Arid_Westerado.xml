@@ -1,25 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Carpets -->
-
   <Plant_AridGrass_Westerado.label>arid grass</Plant_AridGrass_Westerado.label>
   <Plant_AridGrass_Westerado.description>Wild arid grass. Grows anywhere arid that has minimally fertile ground.</Plant_AridGrass_Westerado.description>
-
-
   <!-- Bushes -->
-
   <Plant_PricklyPear_Westerado.label>prickly pear</Plant_PricklyPear_Westerado.label>
   <Plant_PricklyPear_Westerado.description>Tangled, thorny, woody shoots covered with leaves. Prickly pear grow in clusters, and slow down anyone moving over them.</Plant_PricklyPear_Westerado.description>
-
   <Plant_Senecio_Westerado.label>senecio</Plant_Senecio_Westerado.label>
   <Plant_Senecio_Westerado.description>A smaller flower with daisy flowers. Stores water in its leaves.</Plant_Senecio_Westerado.description>
-
   <Plant_SpinySpurge_Westerado.label>spiny spurge</Plant_SpinySpurge_Westerado.label>
   <Plant_SpinySpurge_Westerado.description>A spiny little bush with pretty yellow flowers.</Plant_SpinySpurge_Westerado.description>
-
   <Plant_AridBush_Westerado.label>arid bush</Plant_AridBush_Westerado.label>
   <Plant_AridBush_Westerado.description>A short shrub. Talks occasionally.</Plant_AridBush_Westerado.description>
-
-
 </LanguageData>

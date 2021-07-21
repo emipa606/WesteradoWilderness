@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Westerado Wilderness (Continued)</name>
   <packageId>Mlie.WesteradoWilderness</packageId>
@@ -6,6 +6,7 @@
   <url>https://github.com/emipa606/WesteradoWilderness</url>
   <supportedVersions>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -18,68 +19,92 @@
   <loadAfter>
     <li>Mlie.Westerado</li>
   </loadAfter>
-  <description>Update of Soyuz, DanRatherman, and SpiderCamps mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Soyuz, DanRatherman, and SpiderCamps mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1613534100
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/WesteradoWilderness
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/WesteradoWilderness][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+[img]https://i.imgur.com/FDJGOjT.png[/img]
+[b]THIS MOD REQUIRES [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1613533435]WESTERADO[/url] TO WORK![/b]
 Westerado Wilderness aims to alter biomes to achieve a more western-themed feel to the game, whilst trying to maintain the balance of vanilla Rimworld.
 
-Features
+[h1]Features[/h1]
 Makes alteration to biomes to give the game more of a western theme
-10+ New plants; chanterelles, prickly pears, and lavender are a select few of the new plants you'll see
+10+ New plants; chanterelles, prickly pears, and lavender are a select few of the new plants you&apos;ll see 
 1 New weather; blizzards!
 Arid biomes have more arid vegetation, adding to the feel of a desolate, hostile, place; debris-like plants and cacti now rule the arid biomes
 Boreal, Forest, and Swamp biomes have a much higher degree of plant and animal life, including mushrooms
 Some vanilla plants now have flowering versions of them
-Compatibility and minor fixes with/to Snowy Trees by Nandonalt and Tejko
+Compatibility and minor fixes with/to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url]
 Arid and Cold biomes are now more hostile to settlement!
 
-We're also planning on releasing future content updates!
+We&apos;re also planning on releasing future content updates!
 
+[img]https://i.imgur.com/1pcYJRI.png[/img]
+Got any questions? Ask them in the [url=https://steamcommunity.com/workshop/filedetails/discussion/1613533435/1744482417434703082/]aptly named Suggestions Thread[/url] and we&apos;ll answer them when we can. Got any suggestions? Feel free to post them in the comments, and we&apos;ll respond as to the suggestion&apos;s feasibility when we can.
 
-Got any questions? Ask them in the aptly named Suggestions Thread and we'll answer them when we can. Got any suggestions? Feel free to post them in the comments, and we'll respond as to the suggestion's feasibility when we can.
+[h1]Add-ons and Recommended Mods[/h1]
+We suggest using all the add-ons, but [b]none[/b] of them are [i]required[/i].
+[list]
+    [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1233906319]Horses by SpiderCamp[/url], adds horses!
+    [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989]Westerado Gunslinger[/url], adds compatibility with [url=https://steamcommunity.com/workshop/filedetails/?id=1631756268]Combat Extended[/url]
+    [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1617051027]Westerado The Gun Jesus Revelations[/url], renames guns to their &apos;proper&apos; label
+    [*]Recommended: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url], plants get snowy when it snows
+[/list]
 
-Add-ons and Recommended Mods
-We suggest using all the add-ons, but none of them are required.
-Add-on: Horses by SpiderCamp, adds horses!
-Add-on: Westerado Gunslinger, adds compatibility with Combat Extended
-Add-on: Westerado The Gun Jesus Revelations, renames guns to their 'proper' label
-Recommended: Snowy Trees by Nandonalt and Tejko, plants get snowy when it snows
+[h1]Mod loading order[/h1]
+Westerado Wilderness should be loaded after Westerado (Core), if you&apos;re using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url] put that before Westerado (Core). Something like:
+[list]
+    [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url]
+    [*]Westerado
+    [*]Westerado Wilderness
+    [*]Westerado Gunslinger
+    [*]Westerado The Gun Jesus Revelations
+[/list]
 
-Mod loading order
-Westerado Wilderness should be loaded after Westerado (Core), if you're using Snowy Trees by Nandonalt and Tejko put that before Westerado (Core). Something like:
-Snowy Trees by Nandonalt and Tejko
-Westerado
-Westerado Wilderness
-Westerado Gunslinger
-Westerado The Gun Jesus Revelations
-
-Compatibility
+[h1]Compatibility[/h1]
 Should be compatible with anything that Westerado (Core) is compatible with. Things that could cause problems:
-Mods that radically change vanilla biomes
+[list]
+    [*]Mods that radically change vanilla biomes
+[/list]
 
-Have you found a compatibility issue? Please inform us in the comments and we'll try to patch it when we can! Make sure to include a list of mods you've used and any potential error messages.
+Have you found a compatibility issue? Please inform us in the comments and we&apos;ll try to patch it when we can! Make sure to include a list of mods you&apos;ve used and any potential error messages.
 
-
+[img]https://i.imgur.com/AoyjZj7.png[/img]
 Soyuz - XML, Artwork
 DanRatherman - Artwork
 SpiderCamp - Artwork
 
-Some Art from SpiderCamp's Decorative Plants mod
+Some Art from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1260678805]SpiderCamp&apos;s Decorative Plants mod[/url]
 
 Inspired by:
-Fertile Planet by Makaru
-Increased Forest Density by Helpful Bot
-Snowy Trees by Nandonalt and Tejko
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=847661538]Fertile Planet[/url] by Makaru
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=751887749]Increased Forest Density[/url] by Helpful Bot
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees[/url] by Nandonalt and Tejko
 
-Licensing
-All original content (e.g. text, imagery, sounds) in this mod is licensed under the CC-BY-SA 4.0 license</description>
+[h1]Licensing[/h1]
+All original content (e.g. text, imagery, sounds) in this mod is licensed under the [url=http://creativecommons.org/licenses/by-sa/4.0/]CC-BY-SA 4.0 license[/url].
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

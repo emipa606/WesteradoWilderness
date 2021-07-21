@@ -1,19 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Misc -->
-
   <Plant_Chanterelle_Westerado.label>chanterelle</Plant_Chanterelle_Westerado.label>
   <Plant_Chanterelle_Westerado.description>Wild chanterelle. Useful as a meat-substitute. Grows anywhere there is a little light and minimally fertile ground.</Plant_Chanterelle_Westerado.description>
-
   <Plant_ParasolMushroom_Westerado.label>proud mountain-shroom</Plant_ParasolMushroom_Westerado.label>
   <Plant_ParasolMushroom_Westerado.description>Wild proud mountain-shroom. Useful as a meat-substitute. Grows anywhere there is a little light and minimally fertile ground.</Plant_ParasolMushroom_Westerado.description>
-
-
   <!-- Bushes -->
-
   <Plant_Lavender_Westerado.label>lavender</Plant_Lavender_Westerado.label>
   <Plant_Lavender_Westerado.description>Thorny, woody shoots covered with leaves and pleasant flowers. Has a nice fragrance.</Plant_Lavender_Westerado.description>
-
-
 </LanguageData>
