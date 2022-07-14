@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Westerado Wilderness (Continued)</name>
   <packageId>Mlie.WesteradoWilderness</packageId>
@@ -19,20 +19,24 @@
   <loadAfter>
     <li>Mlie.Westerado</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Soyuz, DanRatherman, and SpiderCamps mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1613534100
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
 	[tr]
 		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/WesteradoWilderness][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
-	[/tr]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 
 [img]https://i.imgur.com/FDJGOjT.png[/img]
 [b]THIS MOD REQUIRES [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1613533435]WESTERADO[/url] TO WORK![/b]
@@ -40,7 +44,7 @@ Westerado Wilderness aims to alter biomes to achieve a more western-themed feel 
 
 [h1]Features[/h1]
 Makes alteration to biomes to give the game more of a western theme
-10+ New plants; chanterelles, prickly pears, and lavender are a select few of the new plants you&apos;ll see 
+10+ New plants; chanterelles, prickly pears, and lavender are a select few of the new plants you'll see 
 1 New weather; blizzards!
 Arid biomes have more arid vegetation, adding to the feel of a desolate, hostile, place; debris-like plants and cacti now rule the arid biomes
 Boreal, Forest, and Swamp biomes have a much higher degree of plant and animal life, including mushrooms
@@ -48,22 +52,22 @@ Some vanilla plants now have flowering versions of them
 Compatibility and minor fixes with/to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url]
 Arid and Cold biomes are now more hostile to settlement!
 
-We&apos;re also planning on releasing future content updates!
+We're also planning on releasing future content updates!
 
 [img]https://i.imgur.com/1pcYJRI.png[/img]
-Got any questions? Ask them in the [url=https://steamcommunity.com/workshop/filedetails/discussion/1613533435/1744482417434703082/]aptly named Suggestions Thread[/url] and we&apos;ll answer them when we can. Got any suggestions? Feel free to post them in the comments, and we&apos;ll respond as to the suggestion&apos;s feasibility when we can.
+Got any questions? Ask them in the [url=https://steamcommunity.com/workshop/filedetails/discussion/1613533435/1744482417434703082/]aptly named Suggestions Thread[/url] and we'll answer them when we can. Got any suggestions? Feel free to post them in the comments, and we'll respond as to the suggestion's feasibility when we can.
 
 [h1]Add-ons and Recommended Mods[/h1]
 We suggest using all the add-ons, but [b]none[/b] of them are [i]required[/i].
 [list]
     [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1233906319]Horses by SpiderCamp[/url], adds horses!
     [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1634367989]Westerado Gunslinger[/url], adds compatibility with [url=https://steamcommunity.com/workshop/filedetails/?id=1631756268]Combat Extended[/url]
-    [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1617051027]Westerado The Gun Jesus Revelations[/url], renames guns to their &apos;proper&apos; label
+    [*]Add-on: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1617051027]Westerado The Gun Jesus Revelations[/url], renames guns to their 'proper' label
     [*]Recommended: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url], plants get snowy when it snows
 [/list]
 
 [h1]Mod loading order[/h1]
-Westerado Wilderness should be loaded after Westerado (Core), if you&apos;re using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url] put that before Westerado (Core). Something like:
+Westerado Wilderness should be loaded after Westerado (Core), if you're using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url] put that before Westerado (Core). Something like:
 [list]
     [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1322101066]Snowy Trees by Nandonalt and Tejko[/url]
     [*]Westerado
@@ -78,14 +82,14 @@ Should be compatible with anything that Westerado (Core) is compatible with. Thi
     [*]Mods that radically change vanilla biomes
 [/list]
 
-Have you found a compatibility issue? Please inform us in the comments and we&apos;ll try to patch it when we can! Make sure to include a list of mods you&apos;ve used and any potential error messages.
+Have you found a compatibility issue? Please inform us in the comments and we'll try to patch it when we can! Make sure to include a list of mods you've used and any potential error messages.
 
 [img]https://i.imgur.com/AoyjZj7.png[/img]
 Soyuz - XML, Artwork
 DanRatherman - Artwork
 SpiderCamp - Artwork
 
-Some Art from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1260678805]SpiderCamp&apos;s Decorative Plants mod[/url]
+Some Art from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1260678805]SpiderCamp's Decorative Plants mod[/url]
 
 Inspired by:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=847661538]Fertile Planet[/url] by Makaru
@@ -96,7 +100,7 @@ Inspired by:
 All original content (e.g. text, imagery, sounds) in this mod is licensed under the [url=http://creativecommons.org/licenses/by-sa/4.0/]CC-BY-SA 4.0 license[/url].
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -107,4 +111,3 @@ All original content (e.g. text, imagery, sounds) in this mod is licensed under 
 [/list]
 </description>
 </ModMetaData>
-
