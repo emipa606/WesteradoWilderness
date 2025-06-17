@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 3738536819
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f79b7789ddaca641d85785bdee9978b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 3f79b7789ddaca641d85785bdee9978b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/GArid/GAridA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/SnowyPlant/Lavender_Snowy/LavenderA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/SnowyPlant/Brambles_Leafless_Snowy/Brambles_LeaflessA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Veg/RawParasolMushroom.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Veg/RawChanterelle.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/ParasolMushroom/ParasolMushroomB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/FloweringPincushion/FloweringPincushionA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Chanterelle/ChanterelleB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Leafless/SenecioPlant_Leafless/SenecioPlantA_Leafless.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/SpinySpurgePlant/SpinySpurgePlantA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/SnowyPlant/Brambles_Snowy/BramblesA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Chanterelle/ChanterelleA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/FloweringSaguaro/FloweringSaguaroA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/ParasolMushroom/ParasolMushroomA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Lavender/LavenderA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/PricklyPear/PricklyPearB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/SnowyPlant/Brambles_Snowy/BramblesB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/SenecioPlant/SenecioPlantA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/RimindPaintbrush/RimindPaintbrushA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/SnowyPlant/Brambles_Leafless_Snowy/Brambles_LeaflessB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Leafless/SpinySpurgePlant_Leafless/SpinySpurgePlantA_Leafless.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Leafless/GArid_Leafless/GAridA_Leafless.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/PricklyPear/PricklyPearA.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Haematopus/HaematopusB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/RimindPaintbrush/RimindPaintbrushB.png
+- Assets/Data/Mlie.WesteradoWilderness/Textures/Things/Plants/Haematopus/HaematopusA.png
+Dependencies: []

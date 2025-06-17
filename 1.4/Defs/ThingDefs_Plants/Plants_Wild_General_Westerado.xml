@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--====================================== Misc ======================================== -->
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Chanterelle_Westerado</defName>
+    <label>chanterelle</label>
+    <description>Wild chanterelle. Useful as a meat-substitute. Grows anywhere there is a little light and minimally fertile ground.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Flammability>1.3</Flammability>
+      <Nutrition>0.20</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/Chanterelle</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <hideAtSnowDepth>0.4</hideAtSnowDepth>
+    <fillPercent>0.05</fillPercent>
+    <pathCost>5</pathCost>
+    <ingestible />
+    <plant>
+      <harvestedThingDef>RawChanterelle</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <harvestWork>120</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0.25</fertilityMin>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <growDays>4.25</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <wildClusterRadius>3</wildClusterRadius>
+      <wildClusterWeight>300</wildClusterWeight>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.1~0.4</visualSizeRange>
+      <topWindExposure>0.08</topWindExposure>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_ParasolMushroom_Westerado</defName>
+    <label>proud mountain-shroom</label>
+    <description>Wild proud mountain-shroom. Useful as a meat-substitute. Grows anywhere there is a little light and minimally fertile ground.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Flammability>1.3</Flammability>
+      <Nutrition>0.20</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/ParasolMushroom</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <neverMultiSelect>false</neverMultiSelect>
+    <hideAtSnowDepth>0.4</hideAtSnowDepth>
+    <fillPercent>0.05</fillPercent>
+    <pathCost>5</pathCost>
+    <ingestible />
+    <plant>
+      <harvestedThingDef>RawParasolMushroom</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <harvestWork>120</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0.225</fertilityMin>
+      <fertilitySensitivity>0.55</fertilitySensitivity>
+      <growDays>4.75</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <wildClusterRadius>4</wildClusterRadius>
+      <wildClusterWeight>275</wildClusterWeight>
+      <maxMeshCount>4</maxMeshCount>
+      <visualSizeRange>0.1~0.4</visualSizeRange>
+      <topWindExposure>0.08</topWindExposure>
+      <wildOrder>1</wildOrder>
+      <purpose>Food</purpose>
+    </plant>
+  </ThingDef>
+  <!--====================================== Bushes ======================================== -->
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Lavender_Westerado</defName>
+    <label>lavender</label>
+    <description>Thorny, woody shoots covered with leaves and pleasant flowers. Has a nice fragrance.</description>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+    </statBases>
+    <pathCost>15</pathCost>
+    <graphicData>
+      <texPath>Things/Plants/Lavender</texPath>
+      <drawSize>1.3</drawSize>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.6</fertilitySensitivity>
+      <growDays>4</growDays>
+      <harvestWork>60</harvestWork>
+      <maxMeshCount>4</maxMeshCount>
+      <!--<leaflessGraphicPath>Things/Plant/Brambles_Leafless</leaflessGraphicPath>-->
+      <visualSizeRange>0.6~0.9</visualSizeRange>
+      <topWindExposure>0.15</topWindExposure>
+      <wildClusterRadius>6</wildClusterRadius>
+      <wildClusterWeight>200</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <wildEqualLocalDistribution>false</wildEqualLocalDistribution>
+    </plant>
+  </ThingDef>
+</Defs>

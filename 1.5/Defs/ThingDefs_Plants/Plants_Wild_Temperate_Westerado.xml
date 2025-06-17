@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--====================================== Carpets ======================================== -->
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_RimindPaintbrush_Westerado</defName>
+    <label>rimind paintbrush</label>
+    <description>A tall red flower which grows in large clusters. Though it is often considered a weed, rimind paintbrushes in bloom are quite beautiful.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>6</Beauty>
+      <Nutrition>0.15</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plants/RimindPaintbrush</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <hideAtSnowDepth>0.55</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.0</fertilitySensitivity>
+      <growDays>3.5</growDays>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <fertilityMin>0.10</fertilityMin>
+      <maxMeshCount>25</maxMeshCount>
+      <visualSizeRange>0.45~0.65</visualSizeRange>
+      <topWindExposure>0.35</topWindExposure>
+      <wildClusterRadius>2</wildClusterRadius>
+      <wildClusterWeight>8</wildClusterWeight>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+</Defs>
